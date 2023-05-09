@@ -1,4 +1,4 @@
-package com.example.tugasakhir;
+package com.example.tugasakhir.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
+
+import com.example.tugasakhir.R;
 
 public class ViewpagAdaptor extends PagerAdapter {
 
