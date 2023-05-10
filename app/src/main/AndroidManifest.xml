@@ -12,27 +12,42 @@
         android:theme="@style/Theme.TugasAkhir"
         tools:targetApi="31">
         <activity
-            android:name=".FaqActivity"
-            android:label="FAQ"
-            android:gravity="center"
+            android:name=".TipeDeluxeActivity"
             android:exported="false" />
         <activity
-            android:name=".EdtprofileActivity"
-            android:label="Edit Profile"
-            android:gravity="center"
+            android:name=".TipeStandarActivity"
             android:exported="false" />
+        <activity
+            android:name=".TipeSuiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuktiTransferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashcreanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaqActivity"
+            android:exported="false"
+            android:gravity="center"
+            android:label="FAQ" />
+        <activity
+            android:name=".EdtprofileActivity"
+            android:exported="false"
+            android:gravity="center"
+            android:label="Edit Profile" />
         <activity
             android:name=".BottomnavActivity"
             android:exported="false"
-            android:theme="@style/Theme.TugasAkhir.NoActionBar2"/>
+            android:theme="@style/Theme.TugasAkhir.NoActionBar2" />
         <activity
             android:name=".RegisterActivity"
             android:exported="false"
-            android:theme="@style/Theme.TugasAkhir.NoActionBar2"/>
+            android:theme="@style/Theme.TugasAkhir.NoActionBar2" />
         <activity
             android:name=".Loginactivity"
             android:exported="false"
-            android:theme="@style/Theme.TugasAkhir.NoActionBar2"/>
+            android:theme="@style/Theme.TugasAkhir.NoActionBar2" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
